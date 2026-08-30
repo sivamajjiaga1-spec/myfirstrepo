@@ -1,0 +1,8 @@
+<pre>
+  <code>
+    function sayHello() {
+      console.log("Hello World!");
+    }
+  </code>
+</pre>
+
