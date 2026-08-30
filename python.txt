@@ -1,1 +1,15 @@
  this is pythan file 
+# Define a dictionary of capital cities
+capitals = {
+    "India": "New Delhi",
+    "USA": "Washington, D.C.",
+    "France": "Paris"
+}
+
+def get_capital(country):
+    # Use .get() to avoid errors if the country isn't found
+    return capitals.get(country, "Unknown Country")
+
+# Test the function
+print(get_capital("India"))   # Output: New Delhi
+print(get_capital("Canada"))  # Output: Unknown Country
